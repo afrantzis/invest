@@ -1,0 +1,9 @@
+[package]
+name = "invest"
+version = "0.1.0"
+authors = ["Alexandros Frantzis <alf82@freemail.gr>"]
+edition = "2018"
+
+[dependencies.structopt]
+version = "0.2"
+features = ["wrap_help", "color", "suggestions"]
